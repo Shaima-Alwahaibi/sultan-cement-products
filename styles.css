@@ -138,3 +138,16 @@ html[dir="rtl"] .accordion details p{padding-right:0;padding-left:40px}
 @media (max-width:960px){.trust-inner ul{grid-template-columns:repeat(2,minmax(0,1fr));min-width:0;gap:12px}}
 @media (max-width:700px){.hero-points{gap:10px}.hero-points li{padding:14px;border-top:1px solid rgba(13,103,215,.16)}.point-icon{flex-basis:42px!important;width:42px;height:42px}.point-icon.icon-products:before{inset:13px auto auto 12px}.icon-details:before{inset:14px auto auto 11px}.icon-delivery:before{inset:11px auto auto 8px}.icon-delivery:after{left:12px;bottom:7px}.trust-strip{padding:22px 0}.trust-inner li{padding:13px}.trust-icon{flex-basis:42px;width:42px;height:42px}.trust-icon.icon-designs:before{inset:13px auto auto 12px}.icon-time:before{inset:9px}.icon-time:after{left:20px;top:14px}}
 @media (max-width:420px){.trust-inner ul{grid-template-columns:1fr}.trust-inner li{min-height:72px}}
+
+/* Recognisable contact icons */
+.contact-option{overflow:hidden;border-radius:18px;background:linear-gradient(180deg,#fff 0%,#fbfdff 100%)}
+.contact-option:after{position:absolute;content:"";inset:0 0 auto;height:4px;background:linear-gradient(90deg,#0d67d7,#68b7ff);opacity:.82}
+.contact-icon{position:relative;transition:transform .25s ease,box-shadow .25s ease}
+.contact-option:hover .contact-icon{transform:translateY(-3px) scale(1.04);box-shadow:0 15px 30px rgba(13,103,215,.3)}
+.contact-icon:before,.contact-icon:after{position:absolute;content:""}
+.contact-instagram:before{width:27px;height:27px;border:3px solid #fff;border-radius:8px}
+.contact-instagram:after{width:9px;height:9px;border:3px solid #fff;border-radius:50%;box-shadow:9px -9px 0 -4px #fff}
+.contact-whatsapp:before{content:"☎";display:grid;place-items:center;width:28px;height:28px;border:2px solid #fff;border-radius:50%;color:#fff;font:700 17px/1 Arial,sans-serif}
+.contact-whatsapp:after{left:15px;bottom:13px;width:8px;height:8px;background:#0a5bc0;clip-path:polygon(0 0,100% 0,0 100%);transform:rotate(-12deg)}
+.contact-location:before{width:23px;height:23px;border:3px solid #fff;border-radius:50% 50% 50% 0;transform:rotate(-45deg)}
+.contact-location:after{width:7px;height:7px;border-radius:50%;background:#fff;transform:translateY(-3px)}
