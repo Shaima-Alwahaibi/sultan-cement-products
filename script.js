@@ -145,6 +145,10 @@ function applyLanguage(language) {
     node.nodeValue = currentLanguage === 'ar' ? english.replace(key, translations[key]) : english;
   });
 
+  document.querySelectorAll('[data-i18n-en][data-i18n-ar]').forEach(element => {
+    element.textContent = element.dataset[`i18n${currentLanguage === 'ar' ? 'Ar' : 'En'}`];
+  });
+
   document.title = pageMeta[currentLanguage].title;
   const description = document.querySelector('meta[name="description"]');
   if (description) description.content = pageMeta[currentLanguage].description;
