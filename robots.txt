@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://shaima-alwahaibi.github.io/sultan-cement-products/sitemap.xml

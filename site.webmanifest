@@ -1,0 +1,9 @@
+{
+  "name": "Sultan Cement Products",
+  "short_name": "Sultan Cement",
+  "description": "Interlock pavers, concrete blocks and kerbstones from Misfah As Safil, Muscat, Oman.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f7f8fb",
+  "theme_color": "#0b1526"
+}

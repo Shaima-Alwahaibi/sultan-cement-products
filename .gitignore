@@ -1,0 +1,4 @@
+dist/
+pages-dist/
+.tmp/
+.openai/
