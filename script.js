@@ -66,6 +66,8 @@ const translations = {
   'Visit, call or follow us.': 'زورونا أو تواصلوا معنا أو تابعونا.',
   'Choose the easiest way to reach our team, view our latest products or find our location in Muscat.': 'اختر الطريقة الأسهل للتواصل مع فريقنا أو مشاهدة أحدث منتجاتنا أو الوصول إلى موقعنا في مسقط.',
   'Instagram': 'إنستغرام',
+  'WhatsApp': 'واتساب',
+  'Google Maps': 'خرائط Google',
   'See our latest Interlock and Kerbstone products, colours and completed deliveries.': 'شاهد أحدث منتجات الإنترلوك والكربستون والألوان وطلبات التوصيل المكتملة.',
   'Open Instagram ↗': 'افتح إنستغرام ↗',
   'Phone & WhatsApp': 'الهاتف وواتساب',
