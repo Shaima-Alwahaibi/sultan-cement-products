@@ -31,6 +31,7 @@ const translations = {
   'Competitive prices': 'أسعار تنافسية',
   'Professional service': 'خدمة احترافية',
   'On-time delivery': 'تسليم في الموعد',
+  'Over 10 years in Oman': 'أكثر من 10 سنوات في السوق العُماني',
   'Product catalogue': 'كتالوج المنتجات',
   'Choose your product and leave the delivery to us.': 'اختر المنتج واترك التوصيل علينا.',
   'Explore the Interlock and Kerbstone products we sell. Each card clearly shows the product name and available size.': 'استعرض منتجات الإنترلوك والكربستون التي نبيعها. تعرض كل بطاقة اسم المنتج والمقاس المتوفر بوضوح.',

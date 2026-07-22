@@ -230,3 +230,7 @@ img{max-width:100%;height:auto}
 .footer-icon-location:after{width:4px;height:4px;border-radius:50%;background:#8bc3ff;transform:translateY(-4px)}
 .footer-contact-row:hover .footer-contact-icon{border-color:#8bc3ff;background:#0d67d7;color:#fff}
 html[dir="rtl"] .footer-contact-row{direction:rtl}
+
+/* Established local-market experience */
+.icon-experience{color:#0d67d7;font-size:13px!important;font-weight:800;letter-spacing:-.03em}
+@media (min-width:961px){.trust-inner ul{grid-template-columns:repeat(5,minmax(0,1fr))}}
