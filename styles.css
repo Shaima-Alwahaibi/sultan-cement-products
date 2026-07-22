@@ -112,3 +112,29 @@ html[dir="rtl"] .accordion details p{padding-right:0;padding-left:40px}
 .contact-option b{margin-top:auto;color:#0756b8;font-size:14px}
 @media (max-width:960px){.contact-options{grid-template-columns:1fr}.contact-option{min-height:230px}}
 @media (max-width:420px){.contact-option{min-height:220px;padding:26px}.contact-option>.contact-index{top:26px;inset-inline-end:26px}.contact-icon{width:52px;height:52px;font-size:24px}.contact-option small{margin-bottom:16px}.contact-option h3{font-size:23px}html[dir="rtl"] .accordion details p{padding-left:0}}
+
+/* Purpose-built service icons and highlight cards */
+.hero-points{gap:12px;background:transparent!important}
+.hero-points li{min-height:98px;padding:18px;border:1px solid rgba(13,103,215,.16);border-radius:16px;background:rgba(255,255,255,.82)!important;box-shadow:0 12px 30px rgba(6,41,94,.07)}
+.point-icon,.trust-icon{position:relative;overflow:hidden}
+.point-icon{flex-basis:46px!important;width:46px;height:46px;border:0;border-radius:13px;background:linear-gradient(145deg,#0d67d7,#0753ad);box-shadow:0 9px 22px rgba(13,103,215,.24)}
+.point-icon:before,.point-icon:after,.trust-icon:before,.trust-icon:after{position:absolute;content:""}
+.icon-products:before,.icon-designs:before{width:7px;height:7px;background:currentColor;box-shadow:10px 0 currentColor,0 10px currentColor,10px 10px currentColor}
+.point-icon.icon-products:before{color:#fff;inset:15px auto auto 14px}.trust-icon.icon-designs:before{color:#0d67d7;inset:16px auto auto 15px}
+.icon-details:before{width:20px;height:2px;inset:16px auto auto 13px;background:#fff;box-shadow:0 6px #fff,0 12px #fff;border-radius:2px}
+.icon-delivery:before{width:22px;height:13px;inset:13px auto auto 10px;border:2px solid #fff;border-radius:3px}
+.icon-delivery:after{width:5px;height:5px;left:14px;bottom:9px;border:2px solid #fff;border-radius:50%;background:#0a5fc7;box-shadow:14px 0 0 -2px #0a5fc7,14px 0 0 0 #fff}
+.trust-strip{padding:28px 0;background:linear-gradient(180deg,#edf6ff,#e3f0ff);box-shadow:inset 0 1px #d4e5f8,0 14px 34px rgba(6,41,94,.05)}
+.trust-inner{display:block;min-height:0;overflow:visible;padding-block:0}
+.trust-inner>span{display:block;margin-bottom:15px;padding:0;color:#58779c;font-size:10px;letter-spacing:.14em}
+.trust-inner ul{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));min-width:0;gap:14px}
+.trust-inner li{min-height:84px;padding:16px 18px;border:1px solid rgba(13,103,215,.14);border-radius:14px;background:rgba(255,255,255,.88);box-shadow:0 9px 24px rgba(6,41,94,.06);font-size:14px}
+.trust-inner li>span:last-child{margin:0;color:var(--ink);font-weight:700;line-height:1.35}
+.trust-icon{flex-basis:48px;width:48px;height:48px;border:0;border-radius:13px;background:#e5f1ff;box-shadow:none}
+.icon-price:before{content:"OMR";inset:0;display:grid;place-items:center;color:#0d67d7;font:700 10px/1 Arial,sans-serif;letter-spacing:-.02em}
+.icon-service:before{content:"✓";inset:0;display:grid;place-items:center;color:#0d67d7;font:700 24px/1 Arial,sans-serif}
+.icon-time:before{width:20px;height:20px;inset:12px;border:2px solid #0d67d7;border-radius:50%}
+.icon-time:after{width:7px;height:6px;left:23px;top:17px;border-left:2px solid #0d67d7;border-bottom:2px solid #0d67d7}
+@media (max-width:960px){.trust-inner ul{grid-template-columns:repeat(2,minmax(0,1fr));min-width:0;gap:12px}}
+@media (max-width:700px){.hero-points{gap:10px}.hero-points li{padding:14px;border-top:1px solid rgba(13,103,215,.16)}.point-icon{flex-basis:42px!important;width:42px;height:42px}.point-icon.icon-products:before{inset:13px auto auto 12px}.icon-details:before{inset:14px auto auto 11px}.icon-delivery:before{inset:11px auto auto 8px}.icon-delivery:after{left:12px;bottom:7px}.trust-strip{padding:22px 0}.trust-inner li{padding:13px}.trust-icon{flex-basis:42px;width:42px;height:42px}.trust-icon.icon-designs:before{inset:13px auto auto 12px}.icon-time:before{inset:9px}.icon-time:after{left:20px;top:14px}}
+@media (max-width:420px){.trust-inner ul{grid-template-columns:1fr}.trust-inner li{min-height:72px}}
