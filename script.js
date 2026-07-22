@@ -104,12 +104,12 @@ const translations = {
 
 const pageMeta = {
   ar: {
-    title: 'مصنع سلطان للمنتجات الأسمنتية | إنترلوك وكربستون في مسقط',
+    title: 'سلطان للمنتجات الأسمنتية',
     description: 'مصنع سلطان للمنتجات الأسمنتية في المسفاة، مسقط. إنترلوك وكربستون ومنتجات خرسانية. للطلب عبر واتساب 94178871.',
     orderMessage: 'مرحباً، أرغب في طلب عرض سعر من مصنع سلطان للمنتجات الأسمنتية. المنتج والمقاس والكمية المطلوبة هي:'
   },
   en: {
-    title: 'Interlock Pavers & Cement Products in Misfah | Sultan Cement Products',
+    title: 'Sultan Cement Products',
     description: 'Sultan Cement Products supplies interlock paving, concrete blocks and kerbstones from Misfah As Safil, Muscat. Order on WhatsApp +968 9417 8871.',
     orderMessage: 'Hello Sultan Cement Products, I would like to place an order. My required product, size and quantity are:'
   }
