@@ -9,7 +9,10 @@ const files = [
   "sitemap.xml",
   "llms.txt",
   "site.webmanifest",
-  "logo.jpeg",
+  "logo.png",
+  "catalog-interlock.jpeg",
+  "catalog-kerbstone.jpeg",
+  "catalog-cover.jpeg",
   "og.png"
 ];
 
