@@ -217,3 +217,16 @@ img{max-width:100%;height:auto}
   .location-card{padding:26px 18px}
   .cta-inner h2{font-size:34px}
 }
+
+/* Footer contact links with matching service icons */
+.footer-contact .footer-contact-row{display:flex!important;align-items:center;gap:11px;margin:10px 0!important;line-height:1.4}
+.footer-contact .footer-contact-row>span{display:inline!important;margin:0!important;color:inherit!important;font-size:inherit!important}
+.footer-contact-icon{position:relative;display:inline-grid!important;flex:0 0 34px;width:34px;height:34px;margin:0!important;place-items:center;border:1px solid rgba(127,185,255,.28);border-radius:10px;background:rgba(13,103,215,.16);color:#8bc3ff}
+.footer-contact-icon:before,.footer-contact-icon:after{position:absolute;content:""}
+.footer-icon-whatsapp:before{content:"☎";display:grid;inset:0;place-items:center;color:#8bc3ff;font:700 17px/1 Arial,sans-serif}
+.footer-icon-instagram:before{width:16px;height:16px;border:2px solid #8bc3ff;border-radius:5px}
+.footer-icon-instagram:after{width:5px;height:5px;border:2px solid #8bc3ff;border-radius:50%;box-shadow:6px -6px 0 -2px #8bc3ff}
+.footer-icon-location:before{width:13px;height:13px;border:2px solid #8bc3ff;border-radius:50% 50% 50% 0;transform:translateY(-2px) rotate(-45deg)}
+.footer-icon-location:after{width:4px;height:4px;border-radius:50%;background:#8bc3ff;transform:translateY(-4px)}
+.footer-contact-row:hover .footer-contact-icon{border-color:#8bc3ff;background:#0d67d7;color:#fff}
+html[dir="rtl"] .footer-contact-row{direction:rtl}
