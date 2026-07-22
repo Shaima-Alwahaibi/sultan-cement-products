@@ -111,12 +111,12 @@ const translations = {
 const pageMeta = {
   ar: {
     title: 'سلطان للمنتجات الأسمنتية',
-    description: 'سلطان للمنتجات الأسمنتية يوفر إنترلوك وكربستون بجودة موثوقة مع التوصيل إلى جميع أنحاء عُمان. للطلب عبر واتساب 94178871.',
+    description: 'سلطان للمنتجات الأسمنتية يوفر إنترلوك وكربستون بجودة موثوقة مع التوصيل إلى جميع أنحاء عُمان. للطلب عبر واتساب 94276767.',
     orderMessage: 'مرحباً، أرغب في طلب إنترلوك أو كربستون من سلطان للمنتجات الأسمنتية. المنتج والمقاس والكمية وموقع التوصيل هي:'
   },
   en: {
     title: 'Sultan Cement Products',
-    description: 'Sultan Cement Products offers quality Interlock and Kerbstone products with delivery across Oman. Order on WhatsApp +968 9417 8871.',
+    description: 'Sultan Cement Products offers quality Interlock and Kerbstone products with delivery across Oman. Order on WhatsApp +968 9427 6767.',
     orderMessage: 'Hello Sultan Cement Products, I would like to order Interlock or Kerbstone. My product, size, quantity and delivery location are:'
   }
 };
@@ -149,7 +149,7 @@ function applyLanguage(language) {
     button.setAttribute('aria-pressed', String(button.dataset.language === currentLanguage));
   });
 
-  const whatsappUrl = `https://wa.me/96894178871?text=${encodeURIComponent(pageMeta[currentLanguage].orderMessage)}`;
+  const whatsappUrl = `https://wa.me/96894276767?text=${encodeURIComponent(pageMeta[currentLanguage].orderMessage)}`;
   document.querySelectorAll('[data-whatsapp-order]').forEach(link => link.href = whatsappUrl);
 
   const toggle = document.querySelector('[data-menu-toggle]');
