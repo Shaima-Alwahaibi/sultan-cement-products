@@ -9,7 +9,7 @@ const translations = {
   'Interlock & Kerbstone sales · Muscat, Oman': 'بيع وتوصيل الإنترلوك والكربستون · مسقط، عُمان',
   'Interlock and Kerbstone,': 'إنترلوك وكربستون',
   'delivered for your project.': 'نوصلهما إلى مشروعك.',
-  'Choose the size and finish that suit your space. We sell quality Interlock and Kerbstone products with delivery across Oman.': 'اختر المقاس والتشطيب المناسبين لمساحتك. نوفر إنترلوك وكربستون بجودة موثوقة مع التوصيل إلى جميع أنحاء عُمان.',
+  'Choose the Interlock or Kerbstone that suits your project. We provide trusted quality and deliver across Oman.': 'اختر ما يناسب مشروعك من الإنترلوك والكربستون بجودة موثوقة، ونحن نتولى التوصيل إلى جميع أنحاء عُمان.',
   'Get a WhatsApp quote': 'اطلب عبر واتساب',
   'Explore products': 'استعرض المنتجات',
   '6 Google reviews': '6 مراجعات على Google',
