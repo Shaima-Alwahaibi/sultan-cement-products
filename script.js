@@ -61,7 +61,7 @@ const translations = {
   'Options selected for your project': 'خيارات تناسب تفاصيل مشروعك',
   'Compare available sizes, colours and designs, then choose the product that best suits your space.': 'قارن بين المقاسات والألوان والتصاميم المتوفرة، ثم اختر المنتج الأنسب لمساحتك.',
   'Simple ordering, delivery across Oman': 'طلب سهل وتوصيل إلى جميع أنحاء عُمان',
-  'Message our team on WhatsApp to confirm availability and pricing, and arrange delivery directly to your project.': 'راسل فريقنا عبر واتساب لتأكيد التوفر والسعر وترتيب التوصيل مباشرة إلى موقع مشروعك.',
+  'Message our team on WhatsApp to confirm availability and pricing, and arrange delivery directly to your project.': 'تواصل معنا عبر واتساب لإتمام طلبك، وسنؤكد لك التوفر والسعر ونرتب التوصيل إلى موقعك.',
   'Contact Sultan': 'تواصل مع سلطان',
   'Visit, call or follow us.': 'زورونا أو تواصلوا معنا أو تابعونا.',
   'Choose the easiest way to reach our team, view our latest products or find our location in Muscat.': 'اختر الطريقة الأسهل للتواصل مع فريقنا أو مشاهدة أحدث منتجاتنا أو الوصول إلى موقعنا في مسقط.',
