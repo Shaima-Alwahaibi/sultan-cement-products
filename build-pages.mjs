@@ -13,6 +13,7 @@ const files = [
   "catalog-interlock.jpeg",
   "catalog-kerbstone.jpeg",
   "catalog-cover.jpeg",
+  "factory-quality-control.jpeg",
   "og.png"
 ];
 
