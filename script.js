@@ -32,7 +32,7 @@ const translations = {
   'Professional service': 'خدمة احترافية',
   'On-time delivery': 'تسليم في الموعد',
   'Product catalogue': 'كتالوج المنتجات',
-  'Choose the exact size and finish for your project.': 'اختر المقاس والتشطيب المناسبين لمشروعك.',
+  'Choose your product and leave the delivery to us.': 'اختر المنتج واترك التوصيل علينا.',
   'Explore the Interlock and Kerbstone products we sell. Each card clearly shows the product name and available size.': 'استعرض منتجات الإنترلوك والكربستون التي نبيعها. تعرض كل بطاقة اسم المنتج والمقاس المتوفر بوضوح.',
   'Product category': 'فئة المنتج',
   'Interlock': 'الإنترلوك',
