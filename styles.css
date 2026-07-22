@@ -234,3 +234,11 @@ html[dir="rtl"] .footer-contact-row{direction:rtl}
 /* Established local-market experience */
 .icon-experience{color:#0d67d7;font-size:13px!important;font-weight:800;letter-spacing:-.03em}
 @media (min-width:961px){.trust-inner ul{grid-template-columns:repeat(5,minmax(0,1fr))}}
+
+/* Recognisable WhatsApp icon for every order button */
+.button-whatsapp-icon{position:relative;display:inline-grid;flex:0 0 28px;width:28px;height:28px;place-items:center;border-radius:50%;background:#25d366;box-shadow:0 0 0 1px rgba(255,255,255,.3)}
+.button-whatsapp-icon:before{content:"☎";color:#fff;font:700 16px/1 Arial,sans-serif;transform:rotate(-8deg)}
+.button-whatsapp-icon:after{position:absolute;content:"";left:1px;bottom:0;width:8px;height:8px;background:#25d366;clip-path:polygon(0 0,100% 0,0 100%);transform:rotate(-13deg)}
+.button-small .button-whatsapp-icon{flex-basis:22px;width:22px;height:22px}
+.button-small .button-whatsapp-icon:before{font-size:13px}
+.mobile-contact .button-whatsapp-icon{flex-basis:24px;width:24px;height:24px}
