@@ -10,6 +10,7 @@ const files = [
   "llms.txt",
   "site.webmanifest",
   "logo.png",
+  "favicon.png",
   "catalog-interlock.jpeg",
   "catalog-kerbstone.jpeg",
   "catalog-cover.jpeg",
