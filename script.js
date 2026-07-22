@@ -1,7 +1,7 @@
 const translations = {
   'Skip to content': 'تجاوز إلى المحتوى',
   'Products': 'المنتجات',
-  'Why Sultan': 'لماذا سلطان',
+  'Our Advantages': 'مميزاتنا',
   'How it works': 'آلية الطلب',
   'Contact': 'تواصل معنا',
   'FAQ': 'الأسئلة الشائعة',
