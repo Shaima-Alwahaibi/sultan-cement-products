@@ -1,12 +1,11 @@
 # Sultan Cement Products
 
-Official frontend website for Sultan Cement Products in Misfah As Safil, Muscat, Oman.
+Official frontend website for Sultan Cement Products, selling and delivering Interlock and Kerbstone products in Misfah As Safil, Muscat, Oman.
 
 ## Products
 
 - Interlock paving tiles
-- Concrete blocks
-- Concrete kerbstones
+- Kerbstones
 
 ## Local development
 
