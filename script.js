@@ -9,7 +9,7 @@ const translations = {
   'Interlock & Kerbstone sales · Muscat, Oman': 'بيع وتوصيل الإنترلوك والكربستون · مسقط، عُمان',
   'Interlock and Kerbstone,': 'إنترلوك وكربستون',
   'delivered for your project.': 'نوصلهما إلى مشروعك.',
-  'Choose the size and finish that suit your space. We sell Interlock and Kerbstone products and help arrange delivery to your project location.': 'اختر المقاس والتشطيب المناسبين لمساحتك. نبيع الإنترلوك والكربستون ونساعدك في ترتيب التوصيل إلى موقع مشروعك.',
+  'Choose the size and finish that suit your space. We sell quality Interlock and Kerbstone products with delivery across Oman.': 'اختر المقاس والتشطيب المناسبين لمساحتك. نوفر إنترلوك وكربستون بجودة موثوقة مع التوصيل إلى جميع أنحاء عُمان.',
   'Get a WhatsApp quote': 'اطلب عبر واتساب',
   'Explore products': 'استعرض المنتجات',
   '6 Google reviews': '6 مراجعات على Google',
@@ -18,12 +18,12 @@ const translations = {
   'Interlock & Kerbstone only': 'إنترلوك وكربستون فقط',
   'Clear product details': 'تفاصيل واضحة للمنتج',
   'Sizes, colours & finishes': 'مقاسات وألوان وتشطيبات',
-  'Delivery support': 'مساعدة في التوصيل',
-  'Confirm your project location': 'أكد موقع مشروعك',
+  'Delivery across Oman': 'توصيل إلى جميع أنحاء عُمان',
+  'Wherever your project is': 'أينما كان مشروعك',
   'Misfah As Safil': 'المسفاة السفلى',
   'Muscat, Sultanate of Oman': 'مسقط، سلطنة عُمان',
-  '01 / Order support': '01 / مساعدة في الطلب',
-  'Choose with confidence.': 'اختر بكل ثقة.',
+  '01 / Product quality': '01 / جودة المنتجات',
+  'Quality you can trust.': 'جودة تثق بها.',
   'Select · Order · Deliver': 'اختر · اطلب · استلم',
   'SULTAN · MUSCAT · OMAN': 'سلطان · مسقط · عُمان',
   'CUSTOMERS HIGHLIGHT': 'مميزاتنا للعملاء',
@@ -60,8 +60,7 @@ const translations = {
   'We sell only Interlock and Kerbstone, so our catalogue stays clear and easy to browse.': 'نبيع الإنترلوك والكربستون فقط، لذلك يبقى كتالوجنا واضحاً وسهل التصفح.',
   'Choose by size and finish': 'اختر حسب المقاس والتشطيب',
   'Compare the available sizes and colours, then send us the product that fits your space.': 'قارن بين المقاسات والألوان المتوفرة، ثم أرسل لنا المنتج المناسب لمساحتك.',
-  'Order and delivery support': 'مساعدة في الطلب والتوصيل',
-  'Message our Muscat team on WhatsApp to confirm availability, pricing and delivery details.': 'راسل فريقنا في مسقط عبر واتساب لتأكيد التوفر والسعر وتفاصيل التوصيل.',
+  'Message our Muscat team on WhatsApp to confirm availability, pricing and delivery to your project anywhere in Oman.': 'راسل فريقنا في مسقط عبر واتساب لتأكيد التوفر والسعر والتوصيل إلى مشروعك في أي مكان داخل عُمان.',
   'Contact Sultan': 'تواصل مع سلطان',
   'Visit, call or follow us.': 'زورونا أو تواصلوا معنا أو تابعونا.',
   'Choose the easiest way to reach our team, view our latest products or find our location in Muscat.': 'اختر الطريقة الأسهل للتواصل مع فريقنا أو مشاهدة أحدث منتجاتنا أو الوصول إلى موقعنا في مسقط.',
@@ -94,7 +93,7 @@ const translations = {
   'The right Interlock or Kerbstone is one message away.': 'الإنترلوك أو الكربستون المناسب على بُعد رسالة واحدة.',
   'Request a WhatsApp quote ↗': 'اطلب عرض سعر عبر واتساب ↗',
   'Order on WhatsApp:': 'للطلب عبر واتساب:',
-  'Friendly sales and delivery of Interlock and Kerbstone products in Muscat, Oman.': 'بيع وتوصيل الإنترلوك والكربستون بخدمة ودودة في مسقط، عُمان.',
+  'Quality Interlock and Kerbstone products with delivery across Oman.': 'إنترلوك وكربستون بجودة موثوقة مع التوصيل إلى جميع أنحاء عُمان.',
   'Interlock pavers': 'بلاط الإنترلوك',
   'Kerbstones': 'الكربستون',
   'Company': 'الشركة',
@@ -111,12 +110,12 @@ const translations = {
 const pageMeta = {
   ar: {
     title: 'سلطان للمنتجات الأسمنتية',
-    description: 'سلطان للمنتجات الأسمنتية يبيع ويوصل الإنترلوك والكربستون في مسقط، عُمان. للطلب عبر واتساب 94178871.',
+    description: 'سلطان للمنتجات الأسمنتية يوفر إنترلوك وكربستون بجودة موثوقة مع التوصيل إلى جميع أنحاء عُمان. للطلب عبر واتساب 94178871.',
     orderMessage: 'مرحباً، أرغب في طلب إنترلوك أو كربستون من سلطان للمنتجات الأسمنتية. المنتج والمقاس والكمية وموقع التوصيل هي:'
   },
   en: {
     title: 'Sultan Cement Products',
-    description: 'Sultan Cement Products sells and delivers Interlock and Kerbstone products from Misfah As Safil, Muscat. Order on WhatsApp +968 9417 8871.',
+    description: 'Sultan Cement Products offers quality Interlock and Kerbstone products with delivery across Oman. Order on WhatsApp +968 9417 8871.',
     orderMessage: 'Hello Sultan Cement Products, I would like to order Interlock or Kerbstone. My product, size, quantity and delivery location are:'
   }
 };
