@@ -96,6 +96,7 @@ const translations = {
   'Start a conversation': 'ابدأ التواصل',
   'The right Interlock or Kerbstone is one message away.': 'الإنترلوك أو الكربستون المناسب على بُعد رسالة واحدة.',
   'Request a WhatsApp quote ↗': 'اطلب عرض سعر عبر واتساب ↗',
+  'Request a WhatsApp quote': 'اطلب عرض سعر عبر واتساب',
   'Order on WhatsApp:': 'للطلب عبر واتساب:',
   'Quality Interlock and Kerbstone products with delivery across Oman.': 'إنترلوك وكربستون بجودة موثوقة مع التوصيل إلى جميع أنحاء عُمان.',
   'Interlock pavers': 'بلاط الإنترلوك',
