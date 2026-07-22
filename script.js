@@ -149,8 +149,12 @@ function applyLanguage(language) {
     button.setAttribute('aria-pressed', String(button.dataset.language === currentLanguage));
   });
 
-  const whatsappUrl = `https://wa.me/96894276767?text=${encodeURIComponent(pageMeta[currentLanguage].orderMessage)}`;
-  document.querySelectorAll('[data-whatsapp-order]').forEach(link => link.href = whatsappUrl);
+  const whatsappUrl = `https://api.whatsapp.com/send?phone=96894276767&text=${encodeURIComponent(pageMeta[currentLanguage].orderMessage)}`;
+  document.querySelectorAll('[data-whatsapp-order]').forEach(link => {
+    link.href = whatsappUrl;
+    link.target = '_blank';
+    link.rel = 'noopener noreferrer';
+  });
 
   const toggle = document.querySelector('[data-menu-toggle]');
   if (toggle) toggle.setAttribute('aria-label', menuLabel(toggle.getAttribute('aria-expanded') === 'true'));
