@@ -242,3 +242,10 @@ html[dir="rtl"] .footer-contact-row{direction:rtl}
 .button-small .button-whatsapp-icon{flex-basis:22px;width:22px;height:22px}
 .button-small .button-whatsapp-icon:before{font-size:13px}
 .mobile-contact .button-whatsapp-icon{flex-basis:24px;width:24px;height:24px}
+
+/* Official WhatsApp brand mark from the Simple Icons project */
+.contact-whatsapp:before,.footer-icon-whatsapp:before,.button-whatsapp-icon:before{content:"";border:0;border-radius:0;background:url("https://cdn.simpleicons.org/whatsapp/FFFFFF") center/contain no-repeat;box-shadow:none;transform:none}
+.contact-whatsapp:before{width:30px;height:30px}
+.footer-icon-whatsapp:before{inset:auto;width:19px;height:19px;font-size:0}
+.button-whatsapp-icon:before{width:17px;height:17px;font-size:0}
+.contact-whatsapp:after,.footer-icon-whatsapp:after,.button-whatsapp-icon:after{display:none}
