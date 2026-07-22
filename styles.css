@@ -250,9 +250,9 @@ html[dir="rtl"] .footer-contact-row{direction:rtl}
 .button-whatsapp-icon:before{width:17px;height:17px;font-size:0}
 .contact-whatsapp:after,.footer-icon-whatsapp:after,.button-whatsapp-icon:after{display:none}
 
-/* Icon-only WhatsApp action in the hero */
-.whatsapp-image-link{display:inline-grid;flex:0 0 64px;width:64px;height:64px;place-items:center;border:2px solid rgba(255,255,255,.75);border-radius:50%;background:#25d366;box-shadow:0 12px 28px rgba(23,124,65,.24);transition:transform .2s ease,box-shadow .2s ease}
-.whatsapp-image-link img{display:block;width:38px;height:38px}
-.whatsapp-image-link:hover{transform:translateY(-3px) scale(1.04);box-shadow:0 17px 34px rgba(23,124,65,.3)}
-.whatsapp-image-link:focus-visible{outline:3px solid #06295e;outline-offset:4px}
-@media (max-width:700px){.whatsapp-image-link{flex-basis:60px;width:60px;height:60px}.whatsapp-image-link img{width:35px;height:35px}}
+/* Prominent WhatsApp quote action in the hero */
+.hero-actions .whatsapp-feature-button{min-height:72px;padding:0 34px;gap:20px;background:#0d67d7;border-color:#0d67d7;color:#fff;font-size:21px;box-shadow:0 12px 28px rgba(13,103,215,.2)}
+.hero-actions .whatsapp-feature-button:hover{background:#0959ba;border-color:#0959ba;box-shadow:0 16px 34px rgba(13,103,215,.28)}
+.whatsapp-feature-button .button-whatsapp-icon{flex-basis:38px;width:38px;height:38px;box-shadow:0 0 0 2px rgba(255,255,255,.26)}
+.whatsapp-feature-button .button-whatsapp-icon:before{width:23px;height:23px}
+@media (max-width:700px){.hero-actions .whatsapp-feature-button{min-height:68px;padding-inline:25px;font-size:19px}}
